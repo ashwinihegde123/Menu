@@ -1,0 +1,46 @@
+.nav-menu {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    height: 150px;
+}
+
+.nav-menu li {
+    width: 20%;
+    display: block;
+    position: relative;
+    float: left;
+    background: #fbd64a;
+}
+
+.nav-menu li div {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    width: 200px;
+    line-height: 35px;
+    color: #002840;
+    cursor: pointer;
+}
+
+.submenu{
+    display: none;
+}
+
+.submenu li{
+    float: none;
+}
+
+.page-content{
+    line-height: 36px;
+}
+
+.sticky-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #002840;
+    color: white;
+    text-align: center;
+}
